@@ -4,8 +4,6 @@ import requests from "../../requests";
 
 import "./banner.css";
 
-const base_url_image = "https://image.tmdb.org/t/p/original/";
-
 function Banner() {
   const [movie, setMovie] = useState([]);
 
