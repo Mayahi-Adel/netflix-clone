@@ -5,6 +5,7 @@ function Nav() {
   const [show, handleShow] = useState(false);
 
   useEffect(() => {
+    document.title = "Netflix";
     window.addEventListener("scroll", () => {
       if (window.scrollY > 100) {
         handleShow(true);
